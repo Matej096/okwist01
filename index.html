@@ -11,6 +11,22 @@
       .wf-force-outline-none[tabindex="-1"]:focus {
         outline: none;
       }
+      html,
+      body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+      }
+
+      .w-slider-mask,
+      .w-slide {
+        max-width: 100vw;
+        box-sizing: border-box;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
     </style>
     <title>Okwist-izrada web stranica</title>
     <meta
@@ -106,7 +122,6 @@
             /></a>
             <div
               class="menu-button w-nav-button"
-              style="-webkit-user-select: text"
               aria-label="menu"
               role="button"
               tabindex="0"

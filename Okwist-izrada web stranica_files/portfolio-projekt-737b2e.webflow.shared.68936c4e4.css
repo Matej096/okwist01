@@ -335,6 +335,7 @@ pre.w-code-block code {
 
 .w-webflow-badge,
 .w-webflow-badge > img {
+  display: none;
   box-sizing: unset;
   width: unset;
   height: unset;
